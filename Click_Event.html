@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Event</title>
+        <script type="text/javascript">
+
+                function clickevent()
+                {
+                    document.writeln("This is click event");
+                }
+
+                function Add()
+                {
+                    var a=10,b=60,c ;
+                    c = a + b ;
+                    document.writeln("We are in the Add Function"); 
+                    document.writeln("The addition of two numbers is : "+c);
+                }
+
+                
+                function Sub()
+                {
+                    var a=100,b=60,c ;
+                    c = a - b ;
+                    document.writeln("We are in the Sub Function"+"<br>"); 
+                    document.writeln("The Subtraction of two numbers is : "+c);
+                }
+        </script>
+
+</head>
+<body>
+            <!-- <script type="text/javascript"> -->
+                    <form>
+
+                        <input type="button" onclick="clickevent()" value="Please click me"/><br>
+                        <!-- <input type="button" onclick="Add()" value="Click here for Add"/><br> -->
+                        <button onclick="Add()">Addition</button>
+                        <input type="button" onclick="Sub()" value="Click here for Sub"/><br>
+                    </form>
+            <!-- </script> -->
+</body>
+</html>

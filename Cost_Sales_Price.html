@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checking Whether it is gain or loss </title>
+</head>
+<body>
+        <script type="text/javascript">
+            var Cost_Price = 15000;
+            var Sales_Price = 10000;
+            var loss = Cost_Price-Sales_Price;
+            var profit = Sales_Price-Cost_Price;
+
+            if(Cost_Price>Sales_Price)
+            {
+                document.write("<b> OH Gosh!! You are in Loss ....<br><br>");
+                document.write("You have lossed the amount : "+loss);
+            }
+
+            else if(Sales_Price>Cost_Price)
+            {
+                document.write("<b>Hurrayyy!! You are in Profit ....<br><br>");
+                document.write("You have Gained the amount : "+profit);
+            }
+
+            else
+            {
+                document.write("<b> Ohh! You have achieved the Break-Even Point");
+            }
+        </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Object Using Constructor</title>
+</head>
+<body>
+        <script type="text/javascript">
+            function employeeDetail(id, name, salary)
+            {
+                this.id = id;
+                this.name = name ;
+                this.salary = salary ;
+            }
+        Employee = new employeeDetail(1, "Anish Khatri", 80000);
+        Employee2 = new employeeDetail(2, "Dikshya Kandel", 100000);
+        Employee3 = new employeeDetail(3, "Junel Dhakal", 70000);
+
+        document.writeln("<h1> Displaying The Records of Employees Using New Constructor.</h1>");
+
+        document.writeln("The name of First Employee is :"+Employee.name+"<br>");
+        document.writeln("The id of First Employee is :"+Employee.id+"<br>");
+        document.writeln("The salary of First Employee is :"+Employee.salary+"<br><br><br><br><br>");
+
+        document.writeln("The name of the Second Employee is :"+Employee2.name+"<br>");
+        document.writeln("The id of the Second Employee is :"+Employee2.id+"<br>");
+        document.writeln("The salary of the Second Employee is :"+Employee2.salary+"<br><br><br><br><br>");
+
+        document.writeln("The name of the Third Employee is :"+Employee3.name+"<br>");
+        document.writeln("The id of the Second Employee is :"+Employee3.id+"<br>");
+        document.writeln("The salary of the Third Employee is :"+Employee3.salary+"<br><br><br>");
+        
+
+        document.writeln("<br><br><br>"+"We used creating Object using New Successfully...");
+
+        </script>
+</body>
+</html>

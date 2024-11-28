@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Factorial Using Function -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial Using Function</title>
+        <script type="text/javascript">
+                function Factorial(n)
+                    {
+                      
+                            if(n<0)
+                            {
+                                document.writeln("The factorial of the given number doesn't Exist.");
+                            }
+
+                            else
+                            {
+                                var fact = 1;
+                                    for(i=n; i>=1; i--)
+                                    {
+                                        fact = fact * i ;
+                                    }
+                                    document.writeln("The answer is "+fact);
+                            }
+                    }
+        </script>
+</head>
+<body>
+            <script type="text/javascript">
+                    document.writeln("Calling from the Body.....<br><br><br><br><br>");
+                    document.writeln(Factorial(5));
+            </script>
+</body>
+</html>

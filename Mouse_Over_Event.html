@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mouse Over Event </title>
+</head>
+<body>
+        <img onmouseover="Anish(this)" onmouseout="Normalimage(this)" 
+        border="2" src="Selfie.jpg" alt="My Image" width="150" height="150">
+
+        <script type="text/javascript">
+                function Anish(x)
+                {
+                    x.style.height = "50%" ;
+                    x.style.width = "50%" ;
+                }
+
+                    function Normalimage(x)
+                    {
+                        x.style.height = "100%" ;
+                        x.style.width = "100%" ;
+                    }
+
+
+        </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Object using New </title>
+</head>
+<body>
+        <script type="text/javascript">
+            var Student = new Object();
+            var Student2 = new Object();
+            Student.id = 1;
+            Student.name= "Anish Khatri" ;
+            Student.Address= "Gairigaun" ;
+            Student.Faculty ="BCA" ;
+            Student.Campus ="Saraswati Multiple Campus";
+            document.writeln("<h1>Details of First Student </h1><br><br><br>");
+            document.writeln("The name of first Student is: "+Student.name+"<br>"+
+            "The Address of the first Student is: "+Student.Address+"<br>"+
+            "The Faculty of the first Student is: "+Student.Faculty+"<br>"+
+            "The Campus name of the first Student is: "+Student.Campus);
+            document.writeln("<br><br><br>"+"We used creating Object using New Successfully...");
+        </script>
+</body>
+</html>

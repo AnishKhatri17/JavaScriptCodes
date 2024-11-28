@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest and Smallest among 10 numbers is an Array</title>
+</head>
+<body>
+        <script type="text/javascript">
+            const num = new Array(78,5,71,9,56,88,60,11,59,34);
+            var largest = num[0] ;
+            var smallest = num[0] ;
+                for(var i=0; i<10; i++)
+                {
+                    if(num[i]>largest)
+                    {
+                        largest=num[i];
+                    }  
+                }
+                document.writeln("The largest number is : "+largest+"<br>");
+
+                for(var i=0; i<10; i++)
+                    {
+                        if(num[i]<smallest)
+                        {
+                            smallest = num[i];
+                            
+                        }
+                    }
+                    document.writeln("The smallest number is : "+smallest+"<br>");
+
+        </script>
+</body>
+</html>
